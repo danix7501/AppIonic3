@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,iBAAI;EACF,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,OAAO,EAAE,KAAK;EACd,gBAAgB,EAAE,OAAO",
+"sources": ["portada.scss"],
+"names": [],
+"file": "portada.css"
+}

@@ -1,0 +1,26 @@
+<!--
+  Generated template for the ModalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Modal</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-img class="img" *ngIf="numImg == 1" src="assets/img/ironman.png"></ion-img>
+  <ion-img class="img" *ngIf="numImg == 2" src="assets/img/thor.png"></ion-img>
+  <ion-img class="img" *ngIf="numImg == 3" src="assets/img/hulk.png"></ion-img>
+  <ion-img class="img" *ngIf="numImg == 4" src="assets/img/blackpanther.png"></ion-img>
+  <ion-img class="img" *ngIf="numImg == 5" src="assets/img/spiderman.png"></ion-img>
+
+  <button ion-button block (click)="closeModal()">Cerrar</button>
+</ion-content>
