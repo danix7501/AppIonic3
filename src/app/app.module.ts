@@ -18,6 +18,7 @@ import {ModalPage} from "../pages/modal/modal";
 import { NativeAudio } from '@ionic-native/native-audio';
 import {PortadaPage} from "../pages/portada/portada";
 import {LoginPage} from "../pages/login/login";
+import {Facebook} from "@ionic-native/facebook";
 
 export const firebaseConfig = {
 
@@ -57,7 +58,8 @@ export const firebaseConfig = {
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    NativeAudio
+    NativeAudio,
+    Facebook
   ]
 })
 export class AppModule {}
